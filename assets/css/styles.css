@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*após usar https://coolors.co/  para gerar uma paleta de cores*/
+:root {
+  --richBlack: #101419;
+  --blueMunsell: #468C98;
+  --trueBlue: #476C9B;
+  --uranianBlue: #ADD9F4;
+  --cordoVan: #984447;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  background-color: var(--richBlack);
+  height: 70vh;
+  color: var(--cordoVan);
+
+}
+
+header {
+  background-color: var(--trueBlue);
+  height: 20vh;
+  color: var(--uranianBlue)
+}
+
+footer {
+  background-color: var(--uranianBlue);
+  height: 10vh;
+  color: var(--trueBlue);
+}
