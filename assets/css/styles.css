@@ -13,7 +13,6 @@
   --blueMunsell: #468C98;
   --trueBlue: #476C9B;
   --uranianBlue: #ADD9F4;
-  --cordoVan: #984447;
 }
 
 html,
@@ -32,7 +31,7 @@ header {
   background-color: var(--trueBlue);
   height: 20vh;
   width: 40vw;
-  color: var(--richBlack);
+  color: var(--uranianBlue);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -60,10 +59,14 @@ main {
   background-color: var(--richBlack);
   height: 70vh;
   width: 40vw;
-  color: var(--cordoVan);
   display: flex;
-  align-items: center;
-  padding-left: 100px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 35px;
+}
+
+.bio-container {
+  margin-bottom: 20px;
 }
 
 .bio-title {
@@ -80,27 +83,28 @@ main {
 }
 
 .bal-03 {
-  background-color: var(--cordoVan);
+  background-color: var(--trueBlue);
   height: 20px;
   width: 20px;
   border-radius: 50px;
 }
 
 .bal-02 {
-  background-color: var(--cordoVan);
+  background-color: var(--trueBlue);
   height: 15px;
   width: 15px;
   border-radius: 50px;
 }
 
 .bal-01 {
-  background-color: var(--cordoVan);
+  background-color: var(--trueBlue);
   height: 10px;
   width: 10px;
   border-radius: 50px;
 }
 
 .title {
+  color: var(--blueMunsell);
   font-size: 2.5vh;
   font-family: 'Strait', sans-serif;
 }
@@ -119,4 +123,17 @@ footer {
   width: 40vw;
   height: 10vh;
   color: var(--trueBlue);
+  display: flex;
+  align-items: center;
+}
+
+.icons-social {
+  display: flex;
+  padding-left: 35px;
+}
+
+.icon img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
