@@ -35,6 +35,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-family: 'Strait', sans-serif;
 }
 
 
@@ -51,8 +52,11 @@ header {
 }
 
 .profile-name {
-  font-family: 'Strait', sans-serif;
   font-size: 5vh;
+}
+
+#profile-js {
+  font-size: 2vh;
 }
 
 main {
